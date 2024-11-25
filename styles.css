@@ -1,0 +1,219 @@
+
+body {
+    font-family: 'Georgia', serif; 
+    margin: 0;
+    padding: 0;
+    color: #faf7f7;
+    background-image: url('foodbackground.jpg'); /* Path to the background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-repeat: no-repeat; /* Prevent tiling of the background image */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
+    background-position: center; /* Center the background image */
+}
+
+/* Heading Styling */
+h1, h2 {
+    font-size: 2.5rem; /* Larger and more elegant */
+    text-align: center;
+    color: #ffffff; /* Bright text for contrast */
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Stronger shadow for readability */
+}
+
+/* Paragraphs and Links */
+p, a {
+    font-size: 1.2rem; /* Increase font size for readability */
+    line-height: 1.8; /* Add more spacing between lines */
+    text-align: center;
+    color: #f2f5f7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow for readability */
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px auto;
+    color: #ffffff; /* Bright link color */
+    transition: background-color 0.3s ease; /* Add hover transition */
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Change background on hover */
+
+}
+
+/* Home Page Container */
+.home-container {
+    text-align: center;
+    color: #faf7f7;
+    padding: 20px;
+}
+
+/* Images for Links */
+.home-img {
+    width: 50%; /* Adjust image size as needed */
+    margin: 15px auto;
+    display: block;
+    border-radius: 10px; /* Optional: Rounded corners for images */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for depth */
+}
+
+a {
+    display: block;
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background for links */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.4); /* Change background on hover */
+}
+
+
+
+
+
+
+
+
+/* Meal Plan Container */
+.mealplan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    margin: 20px;
+    gap: 30px; /* Add more space between items */
+}
+
+/* Individual Meal Styling */
+.meal {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border: 1px solid #ddd;
+    border-radius: 15px; /* Rounded corners for elegance */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+}
+
+.meal img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded edges for images */
+    margin-bottom: 15px;
+}
+
+.meal h2 {
+    font-size: 1.8rem; /* Larger meal titles */
+    color: #333;
+    margin: 10px 0;
+}
+
+.meal p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555; /* Slightly lighter on hover */
+}
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('images/background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Recipes Page Header */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Recipes Container */
+.recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Space between items */
+    padding: 20px;
+}
+
+/* Individual Recipe Card */
+.recipe {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.recipe h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.recipe p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Back to Home Link */
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background-color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #555;
+}
